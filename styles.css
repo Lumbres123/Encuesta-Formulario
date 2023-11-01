@@ -34,11 +34,12 @@ header{
 }
 #description{
   font-style: italic;
-  text-align:center;
+  text-align: center;
   font-size: 2rem;
   margin-bottom: 5rem
 }
 #survey-form{
+  font-family:sans-serif;
   background-color:#1b1b32cc;
   border-radius: 1rem;
   width: 100%;
@@ -55,6 +56,7 @@ input{
   height: 4.8rem;
   border-radius: 0.5rem;
   margin-top:1rem;
+
 }
 .div-select{
   margin: 3rem;
@@ -117,16 +119,16 @@ textarea {
     font-size: 3.2rem;
   }
   #description{
-  margin-bottom: 1.2rem;
+    margin-bottom: 1.2rem;
   }
-  .radio, .checkbox{
+  .radio,.checkbox{
     margin-top: 0;
   }
-  label {
+  label{
     font-size: 1.6rem;
   }
   .conjunto-radio-checkbox .recomendaciones-p{
-    font-size: 2rem;
+   font-size: 2rem
   }
 }
 @media(max-width:425px){
