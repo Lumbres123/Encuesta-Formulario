@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mauro Lumbres- Diseñador Web</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="div-body">
+    <header>
+      <h1 id="title">Encuesta en un Formulario</h1>
+      <p id="description">Todas las sugerencias , serán tomadas con mucha importancia</p>
+    <header>
+     
+        <form id="survey-form">
+          <label id="name-label" class="datos">Name
+          <input required id="name" type="text" placeholder="Ingresa tu nombre" required/>
+          </label>
+          <label id="email-label" class="datos">Email
+          <input required id="email" placeholder="Ingresar tu Email" type="email"/>
+          </label>
+          <label id="number-label" class="datos">Age
+          <input id="number" min="18" max="60" type="number" placeholder="Ingresa tu edad" value="number"/>
+          </label> 
+          <div class="div-select">
+            <p class="div-select-p">¿Qué función tienes ahora?
+          <select id="dropdown">
+            <option>Elige una opción</option>
+            <option>Estudiante</option>
+            <option>Instructor</option>
+            <option>Cliente</option>
+          </select>
+          </div>
+          <div class="conjunto-radio-checkbox">
+             <p class="recomendaciones-p">
+              Recomendarias Free Code Camp a algún amigo?
+            </p>
+          <label class="recomendaciones-l">
+            <input value="label-1" type="radio" name="label-1" class="radio">Talvéz
+          </label>
+          <label>
+            <input value="label-1"  type="radio" name="label-1" class="radio">Definitivamente
+          </label>
+          <label>
+            <input value="label-1"  type="radio" name="label-1" class="radio">Porsupuesto ahora mismo.
+          </label>
+          </div>
+          <div class="conjunto-radio-checkbox">
+            <p class="recomendaciones-p">Que te gustaría que mejoremos?</p>
+          <label>
+            <input type="checkbox" value="label-2" class="checkbox"/>
+            HTML Y CSS
+            </label>
+            <label>
+            <input type="checkbox" value="label-3" class="checkbox"/>
+            JAVASCRIPT
+            </label>
+            <label>
+            <input type="checkbox" value="label-4" class="checkbox"/>
+            DOCENTES
+            </label>
+            <label>
+            <input type="checkbox" value="label-5" class="checkbox"/>
+            MAS MATERIAL LOGÍSTICO
+            </label>
+            <label>
+            <input type="checkbox" value="label-6" class="checkbox"/>
+            REACT
+            </label>
+            <label>
+            <input type="checkbox" value="label-7" class="checkbox"/>
+             VÍDEOS
+            </label>
+            <label>
+            <input type="checkbox" value="label-8" class="checkbox"/>
+            SALA DE AYUDA A ALUMNOS
+            </label>
+            <label>
+            <input type="checkbox" value="label-9" class="checkbox"/>
+            DONACIÓN ECONÓMICA
+            </label>
+            <label>
+            <input type="checkbox" value="label-10" class="checkbox"/>
+            CLASES EN VIVO
+            </label>
+            <label>
+            <input type="checkbox" value="label-11" class="checkbox"/>
+            INICIO DE CURSOS DE PROGRAMACIÓN ONLINE EN VIVO
+            </label>
+            <label>
+            <input type="checkbox" value="label-12" class="checkbox" />
+            MAS PROFESORES EN ESPAÑOL
+            </label>
+            <label>
+            <input type="checkbox" value="label-13" class="checkbox"/>
+            MAS PROFESORES EN INGLÉS
+            </label>
+            </div>
+          <div class="conjunto-radio-checkbox">
+            <p>Agrega un comentario</p>
+          <textarea type="text" placeholder="Agrega un comentario..."></textarea>
+          </div>
+          <div class="conjunto-radio-checkbox">
+          <input type="submit" id="submit" class="botton">
+        </div>
+          
+           </form>
+          </div>
+  </body>
+</html>
